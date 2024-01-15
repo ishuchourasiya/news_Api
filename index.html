@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style/bootstrap.min.css" crossorigin="anonymous">
+  
+  <title>News API</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbaraid">
+        <ul class="navbar-nav me-auto ">
+          <li class="nav-item">
+            <a class="nav-link me-sm-2 text-white" href="#" id="homeNews">Home
+              <span class="visually-hidden"></span>
+            </a>
+            </li>
+          <li class="nav-item me-sm-2">
+            <a class="nav-link  text-white" href="#" id="worldsNews">World</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="indiaNews">India</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="techNews">Teachnology</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="businessNews">Business</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="politicalNews">Political</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="healthNews">Health</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="eduNews">Education</a>
+          </li>
+          
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="sportNews">Sports</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="EntNews">Entertainment</a>
+          </li>
+
+          <li class="nav-item me-sm-2">
+            <a class="nav-link text-white" href="#" id="fashionNews">Fashion</a>
+          </li>
+          
+
+        <form class="d-flex ml-5" method="dialog" >
+          <input type="search" placeholder="Search" id="newsSearch" class="form-control mr-2 text-white">
+          <input type="date" placeholder="Enter Date" id="newsDate" class="form-control mr-2 ">
+          <button  class="btn btn-outline-info text-light" style="width: 115%;" type="submit" id="getNews">Get News</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="bg-info fixed-top" style="margin-top: 50px">
+      <div class="row" >
+            <div class="col-12" >
+                <marquee behavior="scroll" direction="left" scrollamount="12">
+                    <h2 class="text-light">Welcome To ताज़ा ख़बर</h2>
+                </marquee>
+            </div>
+        </div>
+        <div style="margin-top: 10px;"></div>
+        <div class="row">
+            <div class="col-12 text-right">
+                <div id="weatherTemp" style="font-size: 20px; margin-left: 1230px;"></div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 140px;"></div>
+
+  
+  <div class="row"  id="rowOutput" ></div>
+  
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script/script.js"></script>
+  </body>
+</html>
